@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:helloworld:Magento_Widget:etc/widget.xsd">
-    <widget class="Huatusco\CustomWidget\Block\Widget\Posts" id="afm_cw_categorias">
+    <widget class="Huatusco\CustomWidget\Block\Widget\Productos" id="huatusco_cw_productos">
         <label>
 			Productos
         </label>
@@ -8,12 +8,12 @@
 			Muestra un listado de productos
         </description>
         <parameters>
-            <parameter name="category" sort_order="10" visible="true" xsi:type="text">
+            <parameter name="Nombre" sort_order="10" visible="true" xsi:type="text">
                 <label>
 					Nombre del producto
                 </label>
             </parameter>
-            <parameter name="category" sort_order="10" visible="true" xsi:type="text">
+            <parameter name="Descripcion" sort_order="10" visible="true" xsi:type="text">
                 <label>
 					Desripcion del producto
                 </label>

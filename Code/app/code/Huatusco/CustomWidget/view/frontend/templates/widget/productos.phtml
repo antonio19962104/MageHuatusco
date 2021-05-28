@@ -1,4 +1,7 @@
-<?php if($block->getData('posts')): ?>
-	<h2 class='posts'><?php echo $block->getData('posts'); ?></h2>
-	<p>This is sample widget. Perform your code here.</p>
-<?php endif; ?>
+<?php
+	$productos = $block->getproducts()
+?>
+<p>Listado de los productos existentes</p>
+<?php foreach ($productos as $item) { ?>	
+	<p> <?php echo $item; ?> </p>
+<?php } ?>
