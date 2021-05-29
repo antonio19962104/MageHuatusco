@@ -15,4 +15,19 @@
             </parameter>
         </parameters>
     </widget>
+    <widget class="Huatusco\CustomWidget\Block\Widget\FormularioContacto" id="huatusco_cw_frmcontacto">
+        <label>
+            Formulario contacto
+        </label>
+        <description>
+            Muestra un formulario para contactar la tienda
+        </description>
+        <parameters>
+            <parameter name="Nombre" sort_order="10" visible="true" xsi:type="text">
+                <label>
+                    Nombre
+                </label>
+            </parameter>
+        </parameters>
+    </widget>
 </widgets>
