@@ -1,3 +1,23 @@
 Log de informacion del proyecto
 AntonioMG
 Inicio del proyecto: 27/05/2021
+
+127.0.0.1       localautofin.com.mx
+127.0.0.1	localtorino.com.mx
+127.0.0.1	localcasatrust.com.mx
+127.0.0.1	localantonio.com.mx
+127.0.0.1	demoautofin.mx
+127.0.0.1	demosite.mx
+127.0.0.1	demostore.mx
+127.0.0.1	comm-app.local
+127.0.0.1	localdemantonio.com.mx
+127.0.0.1	local-magehuatusco.com.mx
+
+
+<VirtualHost *:80>
+    ServerAdmin webmaster@local-magehuatusco.com.mx
+    DocumentRoot "C:/xampp/htdocs/MageHuatusco/Code"
+    ServerName local-magehuatusco.com.mx
+    ErrorLog "logs/local-magehuatusco.com.mx-error.log"
+    CustomLog "logs/local-magehuatusco.com.mx.log" common
+</VirtualHost>
