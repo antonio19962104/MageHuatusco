@@ -1,0 +1,32 @@
+/*Pasos para crear un modulo en Magento 2*/
+
+/*Creacion de directorios*/
+Ir a la carpeta del proyecto, despues a Code
+Crear la carpeta principal del Modulo por ejemplo "Autofin"
+Dentro de esta nueva carpeta Crear otra que describa mejor al modulo por ejemplo "Contacto"
+Dentro de esta ultima crear la carpeta "etc"
+
+/*Crear archivos escenciales para el modulo*/
+Dentro de la carpeta "etc" debemos crear el archivo module.xml
+Este debe tener la siguiente estructura:
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+	<module name="Autofin_Contacto" setup_version="0.0.1"> 
+    </module>
+</config>
+module name es la conjuncion de los nombres de las carpetas
+
+Dentro de la carpeta Contacto crearemos el archivo registration.php que le indica a magento 
+que debe ser de la siguiente manera:
+<?php \Magento\Framework\Component\ComponentRegistrar::register(
+\Magento\Framework\Component\ComponentRegistrar::MODULE, 'Autofin_Contacto',
+__DIR__
+);
+
+
+/*Vistas*/
+
+/*Invocar un template dentro de otro(PartialView de .net)*/
+$this->getLayout()->createBlock('Magento\Framework\View\Element\Template')->setTemplate('Autofin_Cotiza::pasos.phtml')->setActive(5)->toHtml();
+
+php bin/magento module:status

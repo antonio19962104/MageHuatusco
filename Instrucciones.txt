@@ -1,0 +1,263 @@
+/*Crear Proyecto Magent*/
+https://www.mageplaza.com/magento-2-module-development/how-create-hello-world-module-magento-2.html
+
+
+/*Requisitos*/
+Instalar XAMPP con la version 7.3 de PHP
+Instalar WorkBench
+Instalar GitBash
+Instalar Composer con la ultima version
+
+/*El proyecto se colocara en C:\xampp\htdocs\*/
+
+/*Clonar repo*/
+Abrimos el GitBash y nos vamos a la ruta C:\xampp\htdocs\
+Una vez ahi dentro ejecutamos:
+git clone http://v-tfs:8080/tfs/Portales/Magento/_git/KN95GAM
+En htdocs creara la carpeta del proyecto con sus archivos
+
+/*Ramas*/
+Debemos pasarnos a la rama de desarrollo desde la carpeta del proyecto
+y ejecutamos:
+git checkout -b develop
+Para ver en que rama estamos ejecutamos:
+git branch
+Crear BRANCH:   
+git checkout -b develop 
+git checkout -b testing
+
+
+/*Degradar version de composer*/
+Para que composer sea compatible con el proyecto
+necesitamos la version 1.9.3, para obtenerla en una ventana
+del cmd escribimos:
+composer self-update 1.9.3
+
+
+/*Instalar composer*/
+Entrar a la ruta C:\xampp\php
+​Buscar php.ini
+​Editar el limite de mmeoria y asignarlo de esta manera:
+memory_limit=2048M
+Entrar un nivel(Carpeta Code)
+Ejecutar:
+composer upgrade
+Cuando finalice preguntara si deseamos guardar las credenciales,
+diremos que si y las pondra aqui: (Credenciales del equipo)
+c/xampp/htdocs/KN95GAM/Code/auth.json
+
+/*Activar extensiones*/
+Ir a la ruta: c://xampp/php/php.ini
+Editar el archivo php.ini
+Debemos descomentar las extensiones que vamos a usar,
+las cuales estan en Extensiones.jpg
+
+/*Crear BD*/
+Creamos una nueva BD en el servidor local de MySql
+
+/*Instalar Magento*/
+Editar el archivo php.ini y editar las siguientes lineas
+    max_execution_time = 18000
+    max_input_time = 1800
+    memory_limit = 1024M
+	
+Ir a la ruta:
+vendor\magento\framework\Image\Adapter\Gd2.php
+editar el archivo reemplazando la funcion:
+validateURLScheme
+por:
+  private function validateURLScheme(string $filename) : bool
+  {
+      $allowed_schemes = ['ftp', 'ftps', 'http', 'https'];
+      $url = parse_url($filename);
+      if ($url && isset($url['scheme']) && !in_array($url['scheme'], $allowed_schemes) && !file_exists($filename)) 
+	  {
+		return false;
+      }
+      return true;
+  }
+
+Ejecutamos el siguiente comando:
+./bin/magento setup:install 
+--base-url=http://localhost/Antonio
+--db-host=localhost 
+--db-name=autofin
+--db-user=root 
+--db-password='' 
+--admin-firstname=Antonio
+--admin-lastname=Murillo
+--admin-email=jamurillo@grupoautofin.com 
+--admin-user=admin 
+--admin-password=Pasword01 
+--use-rewrites=1
+(--admin-user y --admin-password seran mis credenciales
+de logeo al Admin de Magento)
+Esto crea las tablas de Magento en mi base de datos
+
+/*Crear virtual host*/
+Ir a la ruta: C:\Windows\System32\drivers\etc
+editar con el bloc de notas como administrador el archivo *hosts*
+Escribir: 127.0.0.1	localkn95gam.mx
+127.0.0.1 => localhost
+localkn95gam.mx => url para el sitio local
++
+Editar: C:\xampp\apache\conf\extra\httpd-vhosts.conf
+Copiamos uno de los comentados y ahi ponemos los datos
+
+
+/*Ritual*/
+En GitBash
+php bin/magento setup:upgrade
+php bin/magento setup:di:compile
+php bin/magento setup:static-content:deploy -f
+php bin/magento cache:clean
+php bin/magento cache:flush
+php bin/magento deploy:mode:set developer
+
+/*Confi*/
+Ir al archivo: Code/app/etc/di.xml
+Editar la linea 724
+	<item name="view_preprocessed" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Symlink</item>
+La debemos comentar y en su lugar añadir
+	<item name="default" xsi:type="object">Magento\Framework\App\View\Asset\MaterializationStrategy\Copy</item>
+
+
+/*Corregir detalle de las diagonales wn windows*/
+Ir a la ruta:
+C:\xampp\htdocs\KN95GAM\Code\vendor\magento\
+framework\View\Element\Template\File\Validator.php  
+editar la funcion isPathInDirectories
+reemplazando por:
+	protected function isPathInDirectories($path, $directories)
+    {
+    $realPath = str_replace('\\', '/', $this->fileDriver->getRealPath($path));
+    if (!is_array($directories)) {
+        $directories = (array)$directories;
+    }
+    foreach ($directories as $directory) {
+        if (0 === strpos($realPath, $directory)) {
+            return true;
+        }
+    }
+    return false;
+    }
+
+
+/*Crear nuevo usuario en MySql*/
+CREATE USER 'jamurillo'@'localhost' IDENTIFIED BY 'Pass@word01';
+GRANT ALL PRIVILEGES ON * . * TO 'jamurillo'@'localhost';
+FLUSH PRIVILEGES;
+
+/*Cambiar credenciales de conexion*/
+Ruta: C:\xampp\htdocs\ProyectoATrabajar\Code\app\etc
+Archivo: env.php
+En el array en el apartado "db":{ "connnection" y "default" }
+cambiar el username y password del nuevo usuario dado de alta en mysql
+
+/*Cambiar ruta para acceder al admin de Magento*/
+En el mismo archivo en el apartado "backend": frontName = 'admin'
+Haciendo esto ya para acceder al admin pongo la ruta que defini en el 
+bloc de notas que se abrio como administrador (archivo hots) más ese /admin
+
+
+
+
+./bin/magento setup:install
+--base-url=http://localhost/magentoapplication
+--db-host=localhost
+--db-name=magentoapplication
+--db-user=jamurillo
+--db-password='Pass@word01' 
+--admin-firstname=Antonio
+--admin-lastname=Murillo
+--admin-email=jamurillo@grupoautofin.com
+--admin-user=jamurillo
+--admin-password=Pass@word01
+--use-rewrites=1
+
+
+
+./bin/magento setup:install --base-url=http://localhost/localantonio.com.mx --db-host=localhost --db-name=localAntonio --db-user=jamurillo --db-password='143z0264' --admin-firstname=Antonio --admin-lastname=Murillo --admin-email=jamurillo@grupoautofin.com --admin-user=admin --admin-password=Pasword01 --use-rewrites=1
+
+
+
+
+./bin/magento setup:install 
+--base-url=http://localhost/magentoapplication
+--db-host=localhost 
+--db-name=magentoapplication
+--db-user=root 
+--db-password='' 
+--admin-firstname=Antonio
+--admin-lastname=Murillo
+--admin-email=jamurillo@grupoautofin.com 
+--admin-user=admin 
+--admin-password=Pasword01 
+--use-rewrites=1
+
+/*Esto va en una sola linea*/
+./bin/magento setup:install --base-url=http://localhost/magentoapplication/ --db-host=localhost --db-name=magentoapp --db-user=root --db-password='' --admin-firstname=Antonio --admin-lastname=Murillo --admin-email=jamurillo@grupoautofin.com --admin-user=admin --admin-password=Pasword01 --use-rewrites=1
+
+
+/*Subir cambios a TFS con github*/
+Situarse en la rama de desarrollo
+git checkout develop
+Verificar cambios
+git status
+git status app
+git status app/Code/Autofin
+
+Agregar cambios
+git add nombreArchivo
+
+Commit
+git commit -m "Comentario"
+
+Coteja todos los cambios que hay arriba con los mios
+git pull origin develop
+
+Empujar cambio a la rama
+git push origin develop
+
+Verificar en el tfs que este el cambio
+
+
+Cambiar a la rama de produccion
+git checkout production
+
+Compara desarrollo y produccion
+git merge develop
+
+escape: q
+
+enter
+
+Nos dice cantidad y nombre del archivo cambiado
+
+Empujar cambio
+git push origin production
+
+Verificar en tfs que este el cambio en la rama de produccion
+
+---------------------------------------------------------------------------------
+Publicacion:
+Entrar a putty
+10.5.2.126
+
+cd /var/www/Autofin/Code
+sudo git pull origin production
+Ritual
+sudo sh /var/www/Autofin/Code/app/code/Autofin/ClearLogs/include/addPermissions.sh
+sudo service httpd -k restart
+si el anterior no funciona probar este
+sudo service httpd restart
+
+Pregunta 37 repetida
+Pregunta 39 no esta
+
+
+CREATE USER 'jamurillo'@'localhost' IDENTIFIED BY '143z0264';
+GRANT ALL PRIVILEGES ON * . * TO 'jamurillo'@'localhost';
+FLUSH PRIVILEGES;
+
+mysql.exe --defaults-file="c:\users\jamuri~1\appdata\local\temp\tmpz3zb9y.cnf"  --protocol=tcp --host=127.0.0.1 --user=root --port=3306 --default-character-set=utf8 --comments --database=db_localautofin  < "C:\\Users\\jamurillo\\OneDrive - Grupo Autofin Mexico\\Magento\\Sitio Autofin\\BD.sql"

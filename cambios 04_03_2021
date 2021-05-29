@@ -1,0 +1,9 @@
+modified:   app/code/Autofin/PdfPublicacion/Controller/Adminhtml/Items/Save.php (Sin cambios)
+modified:   app/code/Autofin/Promociones/Block/Adminhtml/Items/Edit/Tab/Main.php (cambio form)
+modified:   app/code/Autofin/Promociones/Helper/DataPromociones.php (traer los demas campos)
+modified:   app/code/Autofin/Promociones/view/frontend/templates/promociones.phtml (fill href)
+modified:   app/code/Autofin/Promociones/view/frontend/templates/promoshome.phtml (fill href)
+
+
+fail
+modified:   app/code/Autofin/Promociones/Controller/Adminhtml/Items/Save.php (validaciones)

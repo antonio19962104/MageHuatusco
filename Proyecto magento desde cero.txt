@@ -1,0 +1,9 @@
+https://cloudkul.com/blog/magento2-installation-windows/
+https://www.mageplaza.com/magento-2-module-development/
+https://www.mageplaza.com/devdocs/how-install-magento-2-windows.html
+
+instalar con cli
+https://devdocs.magento.com/cloud/before/before-setup-env-install.html
+
+elasticsearch
+https://www.elastic.co/guide/en/elasticsearch/reference/current/windows.html

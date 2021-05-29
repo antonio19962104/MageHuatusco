@@ -1,0 +1,233 @@
+[
+  {
+    "entidad": "TUR - COMITE DIRECTIVO",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 1,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 4,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 1,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 2,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 3,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 5,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 0,
+        "Respuesta": ""
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - EMOCION INTENSA",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 3,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 9,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 4,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 13,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 3,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 7,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 4,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - MUNDO IMPERIAL COMPLEJO",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 62,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 238,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 34,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 161,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 60,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 41,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 47,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - MUNDO IMPERIAL PIERRE",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 41,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 84,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 16,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 73,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 18,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 10,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 9,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - MUNDO IMPERIAL PRINCESS",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 98,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 294,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 102,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 250,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 98,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 64,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 50,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - MUNDO IMPERIAL SERVICIOS COMPARTIDOS",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 6,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 30,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 7,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 12,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 5,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 16,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 3,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  },
+  {
+    "entidad": "TUR - POTRO VIAJES",
+    "objRespuestaFrecuncia": [
+      {
+        "Frecuencia": 2,
+        "Respuesta": "El buen ambiente de trabajo"
+      },
+      {
+        "Frecuencia": 6,
+        "Respuesta": "El crecimiento que puedo tener"
+      },
+      {
+        "Frecuencia": 5,
+        "Respuesta": "El prestigio de la empresa"
+      },
+      {
+        "Frecuencia": 8,
+        "Respuesta": "Gusto por lo que hago"
+      },
+      {
+        "Frecuencia": 1,
+        "Respuesta": "La estabilidad laboral que tengo"
+      },
+      {
+        "Frecuencia": 1,
+        "Respuesta": "Los retos que representa"
+      },
+      {
+        "Frecuencia": 1,
+        "Respuesta": "Mi sueldo y beneficios"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+Temas para ver en magento
+
+CRON
+Carga de temas
+Productos
+Operaciones CRUD en la BD
+Integracion de codigo PHP en html
+Inicios de sesion
+Como integrar librerias (si se pueden) javascript

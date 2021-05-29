@@ -1,0 +1,71 @@
+﻿Magento 
+
+
+Los accesos para entrar al servidor son los siguientes
+
+Usuario: avaldes@10.5.2.126
+Contraseña: Pasword01
+
+Los proyectos se encuentran en la siguiente ruta
+
+cd /var/www/       aquí  se encuentran los proyectos Torino,Autofin,CasaTrust,ElectroFacil
+cd /var/www/producction    en esta ruta se encuentra PrincesZihua y MemorialEterno
+cd /var/www/develop           en esta ruta se encuentran los sitios de desarrollo.
+
+Para acceder al sistema de archivos de cada proyecto estos se encuentran en la carpeta llamada Code
+un ejemplo es el siguiente cd /var/www/Torino/code
+
+El comando para bajar cambios desde nuestro ambiente local a nuestro repositorio es el siguiente
+git pull
+para subir cambios al repo desde nuestro ambiente local es:
+lo primero es checar en la rama(branch), que nos encontramos y eso lo revisamos con el siguiente comando:
+git branch
+para crear una nueva branch debe ser con el siguiente comando.
+git checkout -b nombre de la brnach a crear
+
+Nota:
+es importante revisar que cuando clonemos nuestro repositorio en nuestras maquinas, debemos crear la branch de desarrollo y produccion esto es para tener un mejor control en cuanto a las versiones de nuestro repositorio.
+En la branch que se debe de trabajar siempre debe ser en la develop.
+Lo primero es hacer un pull a nuestro ambiente local por si es que hay archivos que tenemos en el servidor y que no estan en nuestro ambiente local esto lo hacemos con el siguiente comando
+git pull
+Para subir los cambios al repo se utilizan los siguientes comandos
+para comprobar primero que archivos se van a subir ocupamos el siguiente comando 
+git status app
+nos va a desplegar la lista de archivos que se han modficado y entre ellos seleccionamos los que queremos subir esto debe ser uno por uno o subir una carpeta completa de algun modulo creado.
+El comando para  agregar los archivos es el siguiente
+git add “Aqui va la carpeta o archivo a subir”
+ejemplo:
+git add app/code/Autofin/productos
+despues de esto se hace un commit de los archivos a confirmar
+git commit -m “nombre del cambio a subir este debe estar entre comillas (“”)”
+ejemplo:
+git commit -m “modificacion productos”
+luego de esto subimos el cambio con el siguiente comando 
+git push origin develop
+Este codigo lo que hace es subir nuestros archivos agregados al repopsitorio de desarrollo
+el siguiente paso es cambiarnos de branch a la productiva y hacer una union de ramas con el siguiente comando
+git checkout production  con este nos cambiamos de rama
+git merge develop  con este hacemos la combinacion de las dos ramas
+Despues de esto subimos nuestro cambio 
+git push origin production
+
+
+Para intslar magento en el server  nos posicionamos a la carpeta en donde vamos a colocar el proyecto
+esta siempre deben de ir en la ruta cd /var/www “se crea una carpeta en donde vamos a depositar el proyecto o la creamos dentre de desarrollo y/o produccion”
+Una vez echo esto creamos nuestra branch de produccion o desarrollo dependient¿do en donde se haya creado el nuevo proyecto corremos el comando para instalar
+Los comandos para instalar magento son los siguientes
+composer install –apcu-autoloader
+
+composer update –apcu-autoloader
+
+Luego de eso damos un 
+sudo php bin/magento setup:upgrade
+sudo php bin/magento setup:di:compile
+sudo php bin/magento setup:static-content:deploy -f   lleva la f cuando este en modo develop y sin la f cuando ya esta el sitio en modo productivo
+
+sudo php bin/magentop c:c
+sudo php bin/magento c:f
+
+
+
+

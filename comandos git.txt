@@ -1,0 +1,20 @@
+/*Subir cambios a TFS branch:desarrollo*/
+
+git status app => ver cambios que he hecho en el proyecto
+git add NombreArchivo => añadir al stage
+git commit -m "comentario" => salvar cambio localmente
+git pull origin develop => coteja mis cambios con los que estan arriba
+git push origin develop => pega el cambio a la branch
+
+/*Merge de esos cambios a branch:produccion*/
+git checkout production => 
+git merge develop => 
+git push origin production => 
+
+
+/*putty(Subir cambio al sitio productivo)*/
+Situados en la carpeta
+\var\www\Proyecto\Code
+sudo git pull origin production
+
+se hace el ritual
