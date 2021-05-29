@@ -21,3 +21,4 @@ Inicio del proyecto: 27/05/2021
     ErrorLog "logs/local-magehuatusco.com.mx-error.log"
     CustomLog "logs/local-magehuatusco.com.mx.log" common
 </VirtualHost>
+https://devdocs.magento.com/guides/v2.4/frontend-dev-guide/themes/theme-create.html
