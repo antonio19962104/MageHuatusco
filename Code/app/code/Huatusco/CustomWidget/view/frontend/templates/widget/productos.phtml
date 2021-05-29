@@ -1,7 +1,11 @@
 <?php
-	$productos = $block->getproducts()
+	$productos = $block->getproducts();
+	$nombre = $block->getData("Nombre");
 ?>
+<h3> <?php echo "$nombre" ?> </h3>
 <p>Listado de los productos existentes</p>
-<?php foreach ($productos as $item) { ?>	
-	<p> <?php echo $item; ?> </p>
-<?php } ?>
+<ul>
+	<?php foreach ($productos as $item) { ?>	
+		<li> <?php echo "Producto: " . $item["nombre"] . " Precio: " .  $item["precio"]; ?> </li>
+	<?php } ?>
+</ul>

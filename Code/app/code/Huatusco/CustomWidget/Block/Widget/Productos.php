@@ -7,9 +7,11 @@ use Magento\Widget\Block\BlockInterface;
 class Productos extends Template implements BlockInterface {
 	protected $_template = "widget/productos.phtml";
 	public function getproducts(){
-		$listproductos = [];
-		array_push($listproductos, "producto 1");
-		array_push($listproductos, "producto 2");
+		$listproductos = array();
+		for ($i = 0; $i < 10; $i++){
+			$listproductos[$i]["nombre"] = "Producto";
+			$listproductos[$i]["precio"] = 50;
+		}
 		return $listproductos;
 	}
 }
