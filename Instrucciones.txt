@@ -44,7 +44,7 @@ Ejecutar:
 composer upgrade
 Cuando finalice preguntara si deseamos guardar las credenciales,
 diremos que si y las pondra aqui: (Credenciales del equipo)
-c/xampp/htdocs/KN95GAM/Code/auth.json
+c/xampp/htdocs/KN95GAM/Code/auth.jsonc
 
 /*Activar extensiones*/
 Ir a la ruta: c://xampp/php/php.ini
@@ -144,7 +144,7 @@ reemplazando por:
 
 
 /*Crear nuevo usuario en MySql*/
-CREATE USER 'jamurillo'@'localhost' IDENTIFIED BY 'Pass@word01';
+CREATE USER 'jamurillo'@'localhost' IDENTIFIED BY '143z0264';
 GRANT ALL PRIVILEGES ON * . * TO 'jamurillo'@'localhost';
 FLUSH PRIVILEGES;
 
@@ -196,7 +196,7 @@ bloc de notas que se abrio como administrador (archivo hots) más ese /admin
 --use-rewrites=1
 
 /*Esto va en una sola linea*/
-./bin/magento setup:install --base-url=http://localhost/magentoapplication/ --db-host=localhost --db-name=magentoapp --db-user=root --db-password='' --admin-firstname=Antonio --admin-lastname=Murillo --admin-email=jamurillo@grupoautofin.com --admin-user=admin --admin-password=Pasword01 --use-rewrites=1
+php bin/magento setup:install --base-url=http://localhost/magentoapplication/ --db-host=localhost --db-name=magentoapp --db-user=root --db-password='' --admin-firstname=Antonio --admin-lastname=Murillo --admin-email=jamurillo@grupoautofin.com --admin-user=admin --admin-password=Pasword01 --use-rewrites=1
 
 
 /*Subir cambios a TFS con github*/
