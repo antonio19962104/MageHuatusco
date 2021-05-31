@@ -1,0 +1,118 @@
+﻿<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$customerSession = $objectManager->create('Magento\Customer\Model\Session');
+$usuario = $customerSession->getCustomer()->getName();
+?>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution="install_email"
+  page_id="106170424136815"
+  theme_color="#0F206C">
+</div>
+<?php if ($customerSession->isLoggedIn()) { ?>
+<header id="header">
+    <div id="top-bar">
+    <div class="container-fluid">
+        <p class="id-user"><i class="fas fa-user-circle"></i> <a href="<?= $block->getBaseUrl().'customer/account/';?>"><?php echo $usuario;?></a></p>
+    </div>
+ </div>
+    <script type="text/javascript">require(['bootstrap4']);</script>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="<?= $this->getUrl('/') ?>">
+	  	<img src='<?php echo $this->getViewFileUrl('images/logo-autofin.png'); ?>' alt="Logo Autofin MÃ©xico"  class="img-fluid logo-header">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#togglerAutofin" aria-controls="togglerAutofin" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="togglerAutofin">
+		<?= $this->getLayout()->createBlock("Magento\Framework\View\Element\Template")->setTemplate("Magento_Theme::custom/menu.phtml")->toHtml() ?>
+	  </div>
+	</nav>
+	<script type="text/javascript">    	
+	
+	require(['jquery'],function($){
+
+		$(document).ready(function(){
+			$("#wrapper").addClass("animated fadeIn");	
+		});
+
+	});
+	</script>
+</header>
+<?php }else{ ?>
+<header id="header">
+    <script type="text/javascript">require(['bootstrap4']);</script>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	  <a class="navbar-brand" href="<?= $this->getUrl('/') ?>">
+	  	<img src='<?php echo $this->getViewFileUrl('images/logo-autofin.png'); ?>' alt="Logo Autofin MÃ©xico"  class="img-fluid logo-header">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#togglerAutofin" aria-controls="togglerAutofin" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="togglerAutofin">
+		<?= $this->getLayout()->createBlock("Magento\Framework\View\Element\Template")->setTemplate("Magento_Theme::custom/menu.phtml")->toHtml() ?>
+	  </div>
+	</nav>       
+	<script type="text/javascript">    	
+	
+	require(['jquery'],function($){
+
+		$(document).ready(function(){
+			$("#wrapper").addClass("animated fadeIn");	
+		});
+
+	});
+	</script>
+        <style>
+            
+        </style>
+</header>
+<?php }?>   
+    <a href="/contact" class="info-float shadow"><!--data-toggle="modal" data-trigger="modalContacto" target="_blank"-->
+        <img src="<?php echo $this->getViewFileUrl("images/icon-info.png");?>" class="icon-info" alt="Icono Informes">
+    </a>
+    <a data-toggle="modal" data-trigger="modalContacto" class="book-label shadow d-none d-md-block">
+        <p class="mb-0">Informes</p>
+    </a>
+
+<!-- Modal -->
+<div data-bind="mageInit: {
+        'Magento_Ui/js/modal/modal':{
+            'type': 'popup',
+            'title': 'Solicitar Informes',
+            'trigger': '[data-trigger=modalContacto]',
+            'responsive': true,
+            'buttons': [{
+                text: jQuery.mage.__('Cerrar'),
+                class: 'btn btn-secondary'
+            }]
+        }}">
+    <div class="content">
+        <div style="width: 100%; margin-top: 2%;">
+            <?php 
+                echo $this->getLayout()
+                ->createBlock('Magento\Cms\Block\Block')
+                ->setBlockId('2')
+                ->toHtml();
+            ?>
+        </div>
+    </div>
+</div>

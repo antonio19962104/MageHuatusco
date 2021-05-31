@@ -1,0 +1,12 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+        <css src="bootstrap/css/bootstrap.min.css" />
+        <css src="css/custom.css" />
+        <css src="css/animate.min.css" />
+        <css src="css/all.min.css" />
+        <css src="css/owl.carousel.min.css" />
+        <css src="css/lightslider.min.css" />
+        <css src="css/autofin.css" media="all" />
+        <css src="css/customStyles.css" media="all" />
+    </head>
+</page>

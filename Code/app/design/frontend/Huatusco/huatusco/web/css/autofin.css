@@ -1,0 +1,38 @@
+input[type=text].mage-error,
+input[type=tel].mage-error,
+input[type=number].mage-error,
+input[type=file].mage-error,
+input[type=phone].mage-error,
+input[type=email].mage-error
+{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+div .mage-error{
+    color: red;
+}
+/*
+div .mage-error::placeholder{
+    color: red;
+}
+*/
+.mage-error + label.custom-file-label {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.hide-green{
+    border-width:0px;
+    border:none;
+    color: #00833c !important;
+    box-shadow: none;
+    background-color: transparent;
+    min-width: 200px;
+}
+
+.table-cf th {
+    width: 50%;
+ }
+ .table-cf td {
+    width: 50%;
+ }

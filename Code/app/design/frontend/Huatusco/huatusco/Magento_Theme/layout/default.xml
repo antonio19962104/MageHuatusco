@@ -1,0 +1,34 @@
+<page layout="1columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+	<referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo-autofin.png</argument>
+                <argument name="logo_img_width" xsi:type="number">202</argument>
+                <argument name="logo_img_height" xsi:type="number">140</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="page.wrapper" htmlId="wrapper" >
+            <block class="Magento\Framework\View\Element\Template" name="c.header" template="Magento_Theme::custom/header.phtml" before="-"/>
+            <container htmlTag="footer" htmlClass="footer" after="-">
+                <block class="Magento\Framework\View\Element\Template" name="c.footer" template="Magento_Theme::custom/footer.phtml" after="-"/>
+            </container>
+        </referenceContainer>
+		
+        <referenceContainer htmlTag="section" name="main.content" htmlId="content" htmlClass="page-main px-0">
+		</referenceContainer>	       		
+		
+        <referenceContainer name="header.container" display="false" />
+		<referenceBlock name="navigation.sections" remove="true"/>
+		<referenceContainer name="footer-container" remove="true" />
+		<referenceBlock name="authentication-popup" remove="true"/>	
+		<referenceBlock name="column.main" remove="true" />
+		<referenceBlock name="wish-list-link" remove="true" />
+		<referenceBlock name="catalog.compare.link" remove="true" />
+        
+        <move element="breadcrumbs" destination="page.wrapper" after="c.header" />
+        
+		
+	
+    </body>
+</page>

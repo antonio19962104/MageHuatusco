@@ -1,0 +1,168 @@
+﻿<footer id="footer">
+	<div class="footer-wrap">
+                <div style="display: none;">
+                    <a href="http://wa.me/message/YGFGKWPY43Z3A1" class="whats-float shadow" target="_blank"> 
+                       <i class="fab fa-whatsapp"></i>
+                   </a>
+               </div>
+		<div class="container">
+			<ul class="list-inline menu-footer">
+				<li class="list-inline-item">
+					<a href="<?= $this->getUrl('quienes-somos') ?>"><?= __("¿Quiénes somos?") ?></a>	
+				</li>
+				<li class="list-inline-item">
+					<a href="//www.autofinusa.com" target="_blank">Autofin USA</a>
+				</li>
+				<li class="list-inline-item">
+				<a href="<?= $this->getUrl('legales') ?>" target="_blank"><?= __("Legales") ?></a>
+					
+				</li>
+				<li class="list-inline-item">
+					<a class="text-white" href="<?= $this->getUrl('aviso-de-privacidad') ?>" data-toggle="modal" data-target="#legalPrivacy">Aviso de privacidad</a>
+				</li>
+				<li class="list-inline-item">
+					<a href='<?= $this->getUrl('terminos-y-condiciones') ?>'  target="_blank"><?= __("Términos y condiciones") ?></a>
+				</li>
+				<li class="list-inline-item">
+                                    <a href="<?= $this->getUrl('promociones') ?>"><?= __("Promoción") ?></a>
+				</li>
+				<li class="list-inline-item">
+                                    <a href="<?= $this->getUrl('faqs') ?>"><?= __("FAQ'S") ?></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="<?= $this->getUrl('sucursales') ?>"><?= __("Sucursales") ?></a>	
+				</li>
+			</ul>
+		</div>
+		<!--Agregar nav .social codigo para facebook e instagram 05/04/2021 jamurillo-->
+		<nav class="social">
+          <ul>
+            <li><a href="https://cutt.ly/zxTJ6PA" target="_blank">Facebook <img src='<?php echo $this->getViewFileUrl('images/facebook.png'); ?>' class="img-fluid"></a></li>
+            <li><a href="https://cutt.ly/2xTKaWF" target="_blank">Instagram <img src='<?php echo $this->getViewFileUrl('images/instagram.png'); ?>' class="img-fluid"></a></li>
+          </ul>
+      	</nav>
+
+	</div>
+	
+		<!-- Modal -->
+    <div class="modal fade" id="legalPrivacy" tabindex="-1" role="dialog" aria-labelledby="legalPrivacyTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="legalPrivacyTitle">Avisos de privacidad.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="fa-ul mb-0">
+            	<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <a href='<?= $this->getUrl('aviso-de-privacidad') ?>' target="_blank">Cliente Autofin</a></li>
+            	<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <a href='<?= $this->getUrl('aval-autofin') ?>' target="_blank">Aval Autofin</a></li>
+            	<li><span class="fa-li"><i class="fas fa-chevron-right"></i></span> <a href='<?= $this->getUrl('obligado-solidario') ?>' target="_blank">Obligado Solidario Autofin</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	<script type="text/javascript">    		
+	require(['jquery'],function($){
+		$(document).ready(function(){
+			//location.href = './somos'; 
+		});
+	});
+	</script>
+
+	<style>
+	/*
+	* Agregar estilos para los iconos de facebook e instagram
+	* 05/04/2021 jamurillo@grupoautofin.com
+	*/
+	.social {
+		position: fixed;
+		top: 520px;
+	}
+	.social ul {
+		padding: 0px;
+		-webkit-transform: translate(-270px, 0);
+		-moz-transform: translate(-270px, 0);
+		-ms-transform: translate(-270px, 0);
+		-o-transform: translate(-270px, 0);
+		transform: translate(-270px, 0);
+	}
+	.social ul li {
+		display: block;
+		margin: 5px;
+		background: rgba(0, 0, 0, 0.36);
+		width: 325px;
+		text-align: right;
+		padding: 10px;
+		-webkit-border-radius: 0 30px 30px 0;
+		-moz-border-radius: 0 30px 30px 0;
+		border-radius: 0 30px 30px 0;
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-ms-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+	.social ul li:hover {
+		-webkit-transform: translate(110px, 0);
+		-moz-transform: translate(110px, 0);
+		-ms-transform: translate(110px, 0);
+		-o-transform: translate(110px, 0);
+		transform: translate(110px, 0);
+		background: rgba(255, 255, 255, 0.4);
+	}
+	.social ul li:hover a {
+		color: #000;
+	}
+	.social ul li:hover img {
+		color: #fff;
+		background: #0f206c;
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transition: all 1s;
+		-moz-transition: all 1s;
+		-ms-transition: all 1s;
+		-o-transition: all 1s;
+		transition: all 1s;
+	}
+	.social ul li img {
+		margin-left: 10px;
+		color: #000;
+		background: #fff;
+		padding: 6px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		font-size: 30px;
+		background: #ffffff;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	.social {
+		position: fixed;
+		top: 220px;
+	}
+        /**/
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+			z-index: 55555;
+        }
+	</style>
+	
+</footer>

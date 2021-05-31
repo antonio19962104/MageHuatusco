@@ -1,0 +1,25 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+<?php if ($crumbs && is_array($crumbs)) : ?>
+    <nav class="breadcrumb" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb-list mb-0 py-0">
+                <?php foreach ($crumbs as $crumbName => $crumbInfo) : ?>    
+                        <?php if ($crumbInfo['link']) : ?>
+                        <li class="breadcrumb-item">
+                            <a href="<?= $block->escapeUrl($crumbInfo['link']) ?>"><?= $block->escapeHtml($crumbInfo['label']) ?></a>
+                        </li>
+                        <?php elseif ($crumbInfo['last']) : ?>
+                            <li class="breadcrumb-item active" aria-current="page"><?= $block->escapeHtml($crumbInfo['label']) ?></li>
+                        <?php else : ?>
+                            <?= $block->escapeHtml($crumbInfo['label']) ?>
+                        <?php endif; ?>
+                <?php endforeach; ?>
+            </ol>
+        </div><!--.container-->
+    </nav>
+<?php endif; ?>

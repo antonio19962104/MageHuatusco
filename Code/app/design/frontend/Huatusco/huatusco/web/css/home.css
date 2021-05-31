@@ -1,0 +1,22 @@
+body {
+    /*overflow-y: hidden;
+    overflow-x: hidden;*/
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.page-main {
+    max-width: 100%;
+    background: #ffcc00;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+footer {
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

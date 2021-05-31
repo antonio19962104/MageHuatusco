@@ -1,0 +1,136 @@
+<?php
+
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * Pager template
+ *
+ * @see \Magento\Theme\Block\Html\Pager
+ */
+?>
+<?php if ($block->getCollection()->getSize()) : ?>
+
+    <?php if ($block->getUseContainer()) : ?>
+        <div class="row">
+        <?php endif ?>
+
+        <?php if ($block->getShowAmounts()) : ?>
+
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-3">
+                <!--
+        <p class="toolbar-amount">
+            <span class="toolbar-number">
+            <?php if ($block->getLastPageNum() > 1) : ?>
+                <?= $block->escapeHtml(__('Items %1 to %2 of %3 total', $block->getFirstNum(), $block->getLastNum(), $block->getTotalNum())) ?>
+            <?php elseif ($block->getTotalNum() == 1) : ?>
+                <?= $block->escapeHtml(__('%1 Item', $block->getTotalNum())) ?>
+            <?php else : ?>
+                <?= $block->escapeHtml(__('%1 Item(s)', $block->getTotalNum())) ?>
+            <?php endif; ?>
+            </span>
+        </p>
+            -->
+            </div>
+
+        <?php endif ?>
+
+        <?php if ($block->getLastPageNum() > 1) : ?>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-6">
+                <ul class="pagination justify-content-center" aria-labelledby="paging-label">
+                    <?php if (!$block->isFirstPage()) : ?>
+                        <li class="page-item">
+                            <?php $text = $block->getAnchorTextForPrevious() ? $block->getAnchorTextForPrevious() : ''; ?>
+                            <a class="page-link text-dark" href="<?= $block->escapeUrl($block->getPreviousPageUrl()) ?>" title="<?= $block->escapeHtmlAttr($text ? $text : __('Previous')) ?>">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only"><?= $block->escapeHtml($text ? $text : __('Previous')) ?></span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php if ($block->canShowFirst()) : ?>
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="<?= $block->escapeUrl($block->getFirstPageUrl()) ?>">
+                                <span>1</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php if ($block->canShowPreviousJump()) : ?>
+                        <li class="page-item">
+                            <a class="page-link text-dark" title="" href="<?= $block->escapeUrl($block->getPreviousJumpUrl()) ?>">
+                                <span>...</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php foreach ($block->getFramePages() as $_page) : ?>
+                        <?php if ($block->isPageCurrent($_page)) : ?>
+                            <li class="page-item">
+                                <a class="page-link text-dark">
+                                    <strong class="page"><?= $block->escapeHtml($_page) ?></strong>
+                                </a>
+                            </li>
+                        <?php else : ?>
+                            <li class="page-item">
+                                <a href="<?= $block->escapeUrl($block->getPageUrl($_page)) ?>" class="page-link text-dark">
+                                    <span><?= $block->escapeHtml($_page) ?></span>
+                                </a>
+                            </li>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+
+                    <?php if ($block->canShowNextJump()) : ?>
+                        <li class="page-item">
+                            <a class="page-link text-dark" title="" href="<?= $block->escapeUrl($block->getNextJumpUrl()) ?>">
+                                <span>...</span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php if ($block->canShowLast()) : ?>
+                        <li class="page-item">
+                            <a class="page-link text-dark" href="<?= $block->escapeUrl($block->getLastPageUrl()) ?>">
+                                <span><?= $block->escapeHtml($block->getLastPageNum()) ?></span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+
+                    <?php if (!$block->isLastPage()) : ?>
+                        <li class="page-item">
+                            <?php $text = $block->getAnchorTextForNext() ? $block->getAnchorTextForNext() : ''; ?>
+                            <a class="page-link text-dark" href="<?= $block->escapeUrl($block->getNextPageUrl()) ?>" title="<?= $block->escapeHtmlAttr($text ? $text : __('Next')) ?>">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only"><?= $block->escapeHtml($text ? $text : __('Next')) ?></span>
+                            </a>
+                        </li>
+                    <?php endif; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
+
+        <?php if ($block->isShowPerPage()) : ?>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 mb-3">
+                <!--
+            <strong class="limiter-label"><?= $block->escapeHtml(__('Show')) ?></strong>
+            <select id="limiter" data-mage-init='{"redirectUrl": {"event":"change"}}' class="limiter-options">
+                <?php foreach ($block->getAvailableLimit() as $_key => $_limit) : ?>
+                    <option value="<?= $block->escapeHtmlAttr($block->getLimitUrl($_key)) ?>"
+                        <?php if ($block->isLimitCurrent($_key)) : ?>
+                        selected="selected"<?php endif ?>>
+                        <?= $block->escapeHtml($_limit) ?>
+                    </option>
+                <?php endforeach; ?>
+            </select>
+            <span class="limiter-text"><?= $block->escapeHtml(__('per page')) ?></span>
+                        -->
+            </div>
+        <?php endif ?>
+
+        <?php if ($block->getUseContainer()) : ?>
+        </div>
+    <?php endif ?>
+
+<?php endif ?>
