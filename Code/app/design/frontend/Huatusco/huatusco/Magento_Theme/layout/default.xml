@@ -1,7 +1,7 @@
 <page layout="1columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <update handle="default_head_blocks"/>
     <body>
-	<referenceBlock name="logo">
+	    <referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo-autofin.png</argument>
                 <argument name="logo_img_width" xsi:type="number">202</argument>
