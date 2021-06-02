@@ -1,3 +1,7 @@
+Notas:
+Agregar el metodo eliminarReporte(aHistorico, AnioActual);
+de BackGroundJobController
+
 Lunes
     Reporte de clima dinamico
     Obtencion de las valoraciones en la BL
