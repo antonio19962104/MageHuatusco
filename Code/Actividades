@@ -1,0 +1,13 @@
+Lunes
+    Reporte de clima dinamico
+    Obtencion de las valoraciones en la BL
+
+Martes
+    Valoracion de la primer columna
+    Reporte de bienestar
+    Calculo de historicos dinamicamente
+    
+Miercoles
+    Asignar valoraciones por default a la encuesta de clima original
+    Obtencion de las entidades hijas a partir de la principal
+    Guardado del reporte
