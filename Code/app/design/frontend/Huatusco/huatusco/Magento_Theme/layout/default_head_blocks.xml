@@ -8,5 +8,6 @@
         <css src="css/lightslider.min.css" />
         <css src="css/autofin.css" media="all" />
         <css src="css/customStyles.css" media="all" />
+        <css src="css/style.css" media="all" />
     </head>
 </page>
