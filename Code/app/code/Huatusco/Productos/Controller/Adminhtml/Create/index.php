@@ -22,7 +22,7 @@ class Index extends \Magento\Backend\App\Action
         return $this->_authorization->isAllowed('Huatusco_Productos::menu');
     }
 }*/
-namespace Testing\Basic\Controller\Adminhtml\Webpage;
+namespace Huatusco\Productos\Controller\Adminhtml\Create;
 
 use Magento\Framework\App\Action\HttpGetActionInterface as HttpGetActionInterface;
 use Magento\Backend\App\Action\Context;
