@@ -10,3 +10,4 @@ Como integrar librerias (si se pueden) javascript
 
 Create admin menu
 https://bsscommerce.com/blog/create-admin-menu-in-magento-2/
+https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html
