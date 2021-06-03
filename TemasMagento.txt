@@ -7,3 +7,6 @@ Operaciones CRUD en la BD
 Integracion de codigo PHP en html
 Inicios de sesion
 Como integrar librerias (si se pueden) javascript
+
+Create admin menu
+https://bsscommerce.com/blog/create-admin-menu-in-magento-2/
