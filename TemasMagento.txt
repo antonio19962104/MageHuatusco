@@ -8,6 +8,7 @@ Integracion de codigo PHP en html
 Inicios de sesion
 Como integrar librerias (si se pueden) javascript
 
-Create admin menu
+Create admin menu 
 https://bsscommerce.com/blog/create-admin-menu-in-magento-2/
 https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html
+https://www.mageplaza.com/magento-2-module-development/how-to-create-controllers-magento-2.html
