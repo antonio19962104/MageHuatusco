@@ -1,5 +1,5 @@
 <?php
-namespace Huatusco\Modulo1\Controller\Index;
+namespace Huatusco\Productos\Controller\Index;
 
 class Index extends \Magento\Framework\App\Action\Action
 {
@@ -15,6 +15,6 @@ class Index extends \Magento\Framework\App\Action\Action
 
 	public function execute()
 	{
-		return $this->_pageFactory->create();
+		return "<h1>ant</h1>";//$this->_pageFactory->create();
 	}
 }
