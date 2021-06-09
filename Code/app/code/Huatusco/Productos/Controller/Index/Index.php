@@ -15,6 +15,8 @@ class Index extends \Magento\Framework\App\Action\Action
 
 	public function execute()
 	{
-		return "<h1>ant</h1>";//$this->_pageFactory->create();
+		// return $this->_pageFactory->create();
+        echo 'a';
+        die;
 	}
 }
