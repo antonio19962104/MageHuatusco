@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes me mantienen informado acerca de asuntos y cambios importantes</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes comunican claramente sus expectativas</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Puedo hacer a los jefes cualquier pregunta razonable y recibir una respuesta clara</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes son accesibles y es fácil hablar con ellos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes manejan el negocio de forma competente</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes contratan gente de acuerdo a las necesidades de la empresa</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes asignan y coordinan bien al personal</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes confían que los colaboradores hacen un buen trabajo sin supervisarlos continuamente</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí a la gente se le delegan responsabilidades</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes tienen una visión clara de hacia dónde va la organización y de cómo lograrlo
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes cumplen sus promesas
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las palabras de los jefes coinciden con sus acciones</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí nos adaptamos rápidamente a los cambios y nuevos métodos de trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Cambio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes dirigen el negocio de una manera honesta y ética</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes dirigen el negocio de una manera honesta y ética</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Credibilidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Me ofrecen capacitación u otro tipo de desarrollo para apoyar mi crecimiento profesional</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Me dan los recursos y herramientas necesarias para hacer mi trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes reconocen el trabajo bien hecho y el esfuerzo extra</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes reconocen que pueden cometerse errores involuntarios al hacer el trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes fomentan y responden genuinamente a nuestras sugerencias e ideas</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes involucran a la gente en decisiones que afectan su trabajo o su ambiente laboral</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Este es un lugar físicamente seguro en donde trabajar</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí se percibe un ambiente de excelencia, innovación, integridad, pasión y colaboración</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las instalaciones contribuyen a un buen ambiente de trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Cuando hacemos cambios damos continuidad a lo que ya se hizo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Cambio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>A las personas se les anima a que equilibren su vida laboral y su vida personal</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes demuestran un interés sincero en mi como persona, no sólo como empleado</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>En esta empresa existen buenas oportunidades de crecimiento</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>A las personas se les paga de acuerdo al trabajo que realizan</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las personas se sienten satisfechas sin importar las presiones que genera el cambio</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Cambio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Todos tenemos la oportunidad de ser reconocidos por nuestro trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Me tratan bien independientemente de mi posición en la empresa
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los ascensos se dan a quienes más los merecen</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes evitan tener empleados favoritos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí evitamos hablar mal de las personas para obtener un beneficio personal</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>La gente es tratada justamente sin importar su edad</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>La gente es tratada justamente sin importar su raza
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>La gente es tratada justamente sin importar su sexo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>La gente es tratada justamente sin importar su preferencia sexual
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Si soy tratado injustamente, sé que tendré oportunidad de ser escuchado y recibir un trato justo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Imparcialidad</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Siento que mi participación hace una diferencia en la organización</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Mi trabajo tiene un significado especial; para mí éste no es “sólo un trabajo”</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Cuando veo lo que logramos, me siento orgulloso
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las personas están dispuestas a hacer un esfuerzo extra para realizar el trabajo
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Deseo trabajar aquí por un largo tiempo
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Estoy orgulloso de decirle a otros que trabajo aquí</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>A la gente le gusta venir a trabajar aquí
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Orgullo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>La gente conoce los objetivos y metas de su trabajo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí se respeta la forma de ser de las personas</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Se evalúa el desempeño de la gente de manera justa
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí las personas se preocupan por los demás</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Este es un lugar amigable para trabajar
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Este es un lugar donde se disfruta trabajar
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Respeto</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Cuando ingresas a la compañía se te hace sentir bienvenido
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Cuando las personas cambian de funciones o área, se les hace sentir como en casa</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí las personas tienen un sentido de equipo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Estamos todos juntos en esto</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Puedo contar con la ayuda de las personas
+</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Compañerismo</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Tomando todo en consideración, yo diría que este es un excelente lugar donde trabajar</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes promueven el trabajo en equipo</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Gestalt</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes retroalimentan oportunamente el desempeño de sus colaboradores</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes generan acciones que apoyan a su equipo de trabajo para lograr los objetivos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Cuando se requiere, los jefes proporcionan apoyo para dar solución a algún problema con un cliente</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes fomentan el aprendizaje ayudando a mejorar el desempeño de los colaboradores</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes me mantienen informado acerca de asuntos importantes del negocio</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes difunden y promueven los procesos del área para facilitar su aplicación</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Los jefes dan seguimiento a cumplimiento de objetivos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Coaching</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Encuentro tiempo para realizar alguna actividad física y mantenerme saludable</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Bio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí desarrollamos extraordinariamente nuestras labores, asegurando la preferencia de nuestros clientes internos y externos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Siempre produzco un efecto positivo y contribuyo a la alegría en los demás</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Social</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Promovemos un ambiente participativo y de respeto para juntos alcanzar y superar los resultados de la compañía</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Normalmente me ocupo de mantener hábitos alimenticios saludables</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Bio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Influimos e inspiramos a nuestros clientes y colegas para lograr las metas de la organización</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Considero que mis relaciones interpersonales benefician mi desarrollo como persona</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Social</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí vivimos con entusiasmo los proyectos en los que participamos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Normalmente me siento con energía y motivado cuando me levanto por la mañana</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Bio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí buscamos constantemente nuevas y mejores formas de hacer las cosas para ser más eficientes e incrementar la competitividad de la compañía</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Normalmente me siento libre de estrés y ansiedad</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Social</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Aquí la gente actúa basándose en la verdad, la transparencia y la congruencia</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Considero que lo que hago está alineado con lo que disfruto hacer</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Psico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Encuentro tiempo de calidad para socializar y compartir con familiares o amigos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Social</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Confío que mis capacidades, experiencia y acciones me garantizan crecimiento personal y profesional</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Psico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las personas muestran interés y buena disposición para apoyar a los demás</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Siento que mi vida tiene sentido y propósito determinados</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Psico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Normalmente me siento libre de fatiga cuando me levanto por la mañana</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Bio</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Las personas proceden con apego a las normas y protocolos de nuestra organización</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Alineacion Cultural</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Encuentro tiempo para meditar y alinear mis expectativas de vida</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Psico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Existe algo especial o único en tu empresa que la caracterice como un excelente lugar para trabajar?  Proporciona ejemplos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Abiertas</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Si pudieras cambiar algo acerca de tu empresa para hacerla un mejor lugar para trabajar, ¿qué cambiarías?  Proporciona ejemplos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Abiertas</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuáles son las fortalezas de tu jefe directo?  Proporciona ejemplos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Abiertas</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuáles son las áreas de oportunidad de tu jefe directo?  Proporciona ejemplos</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Abiertas</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Qué me motiva a trabajar en esta empresa?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Permanencia</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Qué me haría dejar esta empresa?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Abandono</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Recibiste alguna presión o incentivo para responder de cierta forma&amp;nbsp; la encuesta, ya sea de parte de tus jefes u otras áreas de la empresa?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Presion</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuál es tu antigüedad en la empresa?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuál es tu rango de edad?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuál es tu condición de trabajo?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuál es tu sexo?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Cuál es tu grado académico?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>¿Qué cargo o función ocupas?</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Unidad de Negocio</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Dirección General / Propiedad</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Área / Agencia / Empresa</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+  <row>
+    <eNombre>Clima Laboral</eNombre>
+    <Pregunta>Departamento</Pregunta>
+    <Enfoque>Enfoque Empresa</Enfoque>
+    <Respuesta>#RespuestaLibre</Respuesta>
+    <Nombre>Demografico</Nombre>
+    <Estatus>Activo</Estatus>
+  </row>
+</data>
