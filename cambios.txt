@@ -1,0 +1,6 @@
+css/ClimaDinamico/stylesTextRich.css
+CreateCL.cshtml
+EncuestaController.cs
+ML.ClimaDinamico.cs
+EncuestaController.cs
+BL.Categorias.cs

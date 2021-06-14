@@ -1,0 +1,26 @@
+-Competencia
+		Preguntas valor
+
+-Categorias
+		Subcategoria valor
+
+SubCategoria
+		Pregunta valor
+
+
+
+
+		/-/-/-/--/-/-/-/-/-
+
+		-Pregunta
+			Competenca
+				Categoria
+					Subcategoria
+		-Pregunta
+			Competenca
+				Categoria
+					Subcategoria
+		-Pregunta
+			Competenca
+				Categoria
+					Subcategoria

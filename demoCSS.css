@@ -1,0 +1,545 @@
+/*.note-editor*/
+.note-editor @font-face {
+    font-family: open-Sans-bold;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+.note-editor .salto-compe{
+    display: block;
+}
+.note-editor #prev {
+    background: url(../../img/ClimaDinamico/prev.png);
+    background-size: cover;
+    width: 2.5rem;
+    height: 38px;
+}
+.note-editor #next{
+    background: url(../../img/ClimaDinamico/next.png);
+    background-size: cover;
+    width: 2.5rem;
+    height: 38px;
+}
+.note-editor #save-avance{
+    background: url(../../img/ClimaDinamico/saveAvance.png);
+    background-size: cover;
+    width: 2.5rem;
+    height: 38px;
+}
+.note-editor #mail{
+    background: url(../../img/ClimaDinamico/mail.png);
+    background-size: cover;
+    width: 2.5rem;
+    height: 38px;
+}
+.note-editor .metrica p{
+    display: block;
+}
+.note-editor input, p, span{
+    font-family: open-Sans-bold;
+}
+/* generales */
+.note-editor .center-vertically {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note-editor .img-responsive {
+    /* max-width: 50px;   */
+    max-height: 100px; 
+}
+/* header */
+.note-editor .row-header-clima{
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    z-index: 2;
+}
+.note-editor .header{
+    background-color: #000080;
+    opacity: 0.8;
+    height: 100px;
+}
+.note-editor .img-logo-header{
+    padding: 1rem;
+    height: 90px;
+}
+
+/* footer */
+.note-editor .row-footer-clima{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+.note-editor .footer{
+    background-color: #000080;
+    opacity: 0.8;
+    height: 50px;
+}
+.note-editor .img-logo-footer{
+    padding: 0.5rem;
+    height: 40px;
+    margin-top: 0.25rem;
+}
+
+.note-editor .bg { 
+    /* background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg") no-repeat center center fixed; */
+    background: url("img/backImageDesktop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;  
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.note-editor .login-controls{
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px;
+    height: 50px;
+    font-size: 20px;
+}
+.note-editor .row-form{
+    top: 60%;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+.note-editor .txt-clave{
+    color: #999999;
+    text-align: center;
+}
+.note-editor .btn-ingresar{
+    color: #fff;
+    text-align: center;
+    background-color: #29A8DF;
+}
+.note-editor .btn-ingresar:hover{
+    color: #fff;
+    text-align: center;
+    background-color: #29A8DF;
+}
+.note-editor [type="submit"]:not(:disabled), button:not(:disabled){
+    color: #fff;
+    text-align: center;
+    background-color: #29A8DF;
+}
+.note-editor .btn-olvidar{
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.7;
+}
+.note-editor [type="button"]:not(:disabled), button:not(:disabled){
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.7;
+}
+.note-editor .form-group{
+    margin-bottom: 5px !important;
+}
+
+/* intro */
+.note-editor .imagen-intro{
+    background-image: url(../../img/ClimaDinamico/portadaIntro.jpg);
+    background-size: cover;
+}
+
+.note-editor #img-intro{
+    display: none;
+}
+.note-editor .welcome{
+    font-weight: bold;
+    color: #040482;
+}
+.note-editor .des-likert{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    min-height: 65px;
+    border: 3px solid #fff;
+}
+.note-editor .val{
+    margin: 8px;
+    padding-top: 0.6rem;
+}
+.note-editor .btn-continuar{
+    background-color: #34ace1;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+}
+.note-editor .main-content{
+    padding-bottom: 70px;
+}
+.note-editor .main-content-likert{
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.note-editor .instrucciones-likert{
+    color: #4d4d4d; 
+    font-weight: bold; 
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.note-editor .header-enfoque{
+    background-color: #000080;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+.note-editor .txt-ee{
+    margin-bottom: 0px;
+}
+.note-editor .txt-ea{
+    margin-bottom: 0px;
+}
+.note-editor .header-1 .txt-ea{
+    display: none;
+}
+.note-editor .header-1 .txt-ee{
+    display: block;
+}
+.note-editor .header-2 .txt-ea{
+    display: block;
+}
+.note-editor .header-2 .txt-ee{
+    display: none;
+}
+.note-editor .likert-values{
+    /* transform: rotate(268deg); */
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
+    overflow: hidden;
+    writing-mode: inherit;
+    height: 36px;
+    border: 1px solid #fff;
+}
+.note-editor .metrica{
+    margin-top: 0px;
+}
+.note-editor .metrica p{
+    margin-bottom: 0px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+.note-editor .metricaEA{
+    display: none;
+    margin-left: -15px;
+}
+.note-editor .section-preguntas{
+    margin-top: 50px;
+}
+.note-editor .bg-color{
+    background-color: #efefef;
+}
+.note-editor .item-pregunta{
+    height: auto;
+    border-radius: 2px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+.note-editor .item-pregunta p{
+    padding-top: 0.3rem;
+}
+.note-editor .center-buttons{
+    justify-content: end;
+}
+.note-editor .mergePreguntas{
+    display: block;
+}
+.note-editor .btn-enviar {
+    width: 50%;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .note-editor .btn-enviar {
+        width: 50%;
+    }
+    .note-editor .salto-compe {
+        display: block;
+    }
+    .note-editor .mergePreguntas{
+        display: block;
+    }
+    .note-editor .center-buttons{
+        justify-content: end;
+    }
+    .note-editor .row-form{
+        top: 60%;
+    }
+    .note-editor .img-logo-header{
+        padding: 1rem;
+        height: 100px;
+    }
+    .note-editor #img-intro{
+        display: none;
+    }
+    .note-editor .val{
+        padding-top: 0px;
+    }
+    .note-editor .header-1 .txt-ea{
+        display: none;
+    }
+    .note-editor .header-1 .txt-ee{
+        display: block;
+    }
+    .note-editor .header-2 .txt-ea{
+        display: block;
+    }
+    .note-editor .header-2 .txt-ee{
+        display: none;
+    }
+    .note-editor .metrica{
+        margin-top: 0px;
+    }
+    .note-editor .likert-values{
+        writing-mode: inherit;
+        height: 36px;
+    }
+    .note-editor .metrica p{
+        padding-top: 0.25rem;
+    }
+    .note-editor .metricaEA{
+        display: none;
+    }
+    .note-editor #EE{
+    padding-right: 15px;
+    }
+    .note-editor #EA{
+        padding-left: 15px;
+    }
+    .note-editor #mail{
+        left: 32rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .note-editor .btn-enviar {
+        width: 50%;
+    }
+    .note-editor .salto-compe {
+        display: block;
+    }
+    .note-editor .mergePreguntas{
+        display: block;
+    }
+    .note-editor .center-buttons{
+        justify-content: center;
+    }
+    .note-editor .row-form{
+        top: 62%;
+    }
+    .note-editor .img-logo-header{
+        padding: 0.6rem;
+        height: 100px;
+    }
+    .note-editor #img-intro{
+        display: none;
+    }
+    .note-editor .val{
+        padding-top: 0px;
+    }
+    .note-editor .header-enfoque{
+        float: right;
+    }
+    .note-editor .header-1 .txt-ea{
+        display: block;
+    }
+    .note-editor .header-1 .txt-ee{
+        display: none;
+    }
+    .header-2 .txt-ea{
+        display: none;
+    }
+    .note-editor .header-2 .txt-ee{
+        display: block;
+    }
+    .note-editor .metrica{
+        margin-top: 0px;
+    }
+    .note-editor .likert-values{
+        writing-mode: inherit;
+        height: 36px;
+    }
+    .note-editor .metrica p{
+        padding: 0px;
+        padding-top: 0.25rem;
+    }
+    .note-editor .metricaEA{
+        display: none;
+    }
+    .note-editor #EE{
+        padding-right: 0px;
+    }
+    .note-editor #EA{
+        padding-left: 0px;
+    }
+    .note-editor #mail{
+        left: 2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .note-editor .btn-enviar {
+        width: 50%;
+    }
+    .note-editor .salto-compe {
+        display: none;
+    }
+    .note-editor .mini-header{
+        display: none;
+    }
+    .note-editor .mergePreguntas{
+        display: inline-flex;
+    }
+    .note-editor .center-buttons{
+        justify-content: center;
+    }
+    .note-editor .row-form{
+        top: 60%;
+    }
+    .img-logo-header{
+        padding: 0.6rem;
+        height: 100px;
+    }
+    .note-editor #img-intro{
+        display: block;
+    }
+    .note-editor .main-content{
+        padding-bottom: 0px;
+    }
+    .note-editor .val{
+        padding-top: 0px;
+    }
+    .note-editor .header-enfoque{
+        float: right;
+    }
+    .note-editor .header-1 .txt-ea{
+        display: block;
+    }
+    .note-editor .header-1 .txt-ee{
+        display: none;
+    }
+    .note-editor .header-2 .txt-ea{
+        display: none;
+    }
+    .note-editor .header-2 .txt-ee{
+        display: block;
+    }
+    .note-editor .metrica{
+        margin-top: -8.7rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        left: 15px;
+    }
+    .note-editor .likert-values{
+        writing-mode: sideways-lr;
+        height: 150px;
+    }
+    .note-editor .metrica p{
+        padding: 0px;
+        margin-left: -0.1rem;
+    }
+    .note-editor .metricaEA{
+        display: block;
+    }
+    .note-editor .main-content-likert{
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .note-editor #mail{
+        left: 5rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .note-editor .btn-enviar {
+        width: 40%;
+    }
+    .note-editor .salto-compe {
+        display: none;
+    }
+    .note-editor .mini-header{
+        display: none;
+    }
+    .note-editor .mergePreguntas{
+        display: inline-flex;
+    }
+    .note-editor .center-buttons{
+        justify-content: center;
+    }
+    .note-editor .row-form{
+        top: 68%;
+    }
+    .note-editor .img-logo-header{
+        padding: 0.6rem;
+        height: 100px;
+    }
+    .note-editor #img-intro{
+        display: block;
+    }
+    .note-editor .main-content{
+        padding-bottom: 0px;
+    }
+    .note-editor .val{
+        padding-top: 0px;
+    }
+    .note-editor .header-enfoque{
+        float: right;
+    }
+    .note-editor .header-1 .txt-ea{
+        display: block;
+    }
+    .note-editor .header-1 .txt-ee{
+        display: none;
+    }
+    .note-editor .header-2 .txt-ea{
+        display: none;
+    }
+    .note-editor .header-2 .txt-ee{
+        display: block;
+    }
+    .note-editor .metrica{
+        margin-top: -8.7rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        left: 15px;
+    }
+    .note-editor .likert-values{
+        writing-mode: sideways-lr;
+        height: 150px;
+    }
+    .note-editor .metrica p{
+        padding: 0px;
+        margin-left: -0.1rem;
+    }
+    .note-editor .metricaEA{
+        display: block;
+    }
+    .note-editor .main-content-likert{
+        padding-top: 150px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .note-editor #mail{
+        left: 14rem;
+    }
+}
