@@ -1,2 +1,6 @@
 SP
 GetByUnidad
+getComentarios
+
+ReporteController
+ReporteGlobalCL.cshtml
