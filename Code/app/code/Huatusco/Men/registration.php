@@ -8,6 +8,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Huatusco_CustomWidget',
+    'Huatusco_Men',
     __DIR__
 );
