@@ -39,3 +39,4 @@ class Index extends \Magento\Framework\App\Action\Action
      }
 }
 // https://magento.stackexchange.com/questions/232177/magento2-how-to-call-template-from-a-controller/232182
+// https://www.ostraining.com/blog/magento/blocks-widgets/

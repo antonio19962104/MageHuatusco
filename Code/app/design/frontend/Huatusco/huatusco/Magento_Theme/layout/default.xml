@@ -1,5 +1,9 @@
 <page layout="1columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <update handle="default_head_blocks"/>
+    <head>
+      <title>E commerce</title>
+      <css src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" media="all"  />
+    </head>
     <body>
 	    <referenceBlock name="logo">
             <arguments>
@@ -14,21 +18,21 @@
                 <block class="Magento\Framework\View\Element\Template" name="c.footer" template="Magento_Theme::custom/footer.phtml" after="-"/>
             </container>
         </referenceContainer>
-		
+
         <referenceContainer htmlTag="section" name="main.content" htmlId="content" htmlClass="page-main px-0">
-		</referenceContainer>	       		
-		
+		</referenceContainer>
+
         <referenceContainer name="header.container" display="false" />
 		<referenceBlock name="navigation.sections" remove="true"/>
 		<referenceContainer name="footer-container" remove="true" />
-		<referenceBlock name="authentication-popup" remove="true"/>	
+		<referenceBlock name="authentication-popup" remove="true"/>
 		<referenceBlock name="column.main" remove="true" />
 		<referenceBlock name="wish-list-link" remove="true" />
 		<referenceBlock name="catalog.compare.link" remove="true" />
-        
+
         <move element="breadcrumbs" destination="page.wrapper" after="c.header" />
-        
-		
-	
+
+
+
     </body>
 </page>
