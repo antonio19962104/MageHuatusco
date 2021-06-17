@@ -1,35 +1,28 @@
-<?php /**
- * Copyright © 2016 Magento. All rights reserved.
- * See COPYING.txt for license details.
- */
+<?php
 namespace Huatusco\Men\Controller\Index;
 class Index extends \Magento\Framework\App\Action\Action
 {
-    /**
-     * @var \Magento\Framework\Controller\Result\JsonFactory
-     */
     protected $resultJsonFactory;
-    /**
-     * @param \Magento\Framework\App\Action\Context $context
-     * @param \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory
-     */
+    protected $_pageFactory;
     public function __construct(
        \Magento\Framework\App\Action\Context $context,
-       \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory)
-{
+       \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory,
+       \Magento\Framework\View\Result\PageFactory $pageFactory)
+    {
        $this->resultJsonFactory = $resultJsonFactory;
+       $this->_pageFactory = $pageFactory;
        parent::__construct($context);
-}
-    /**
-     * View  page action
-     *
-     * @return \Magento\Framework\Controller\ResultInterface
-     */
+    }
     public function execute()
     {
+       /*
+       return json
        $result = $this->resultJsonFactory->create();
        $data = ['message' => 'Hello world!'];
+       return $result->setData($data['message']);*/
 
-       return $result->setData($data);
+       /*return view*/
+       return $this->_pageFactory->create();
+
      }
 }
